@@ -3,7 +3,7 @@ from moexalgo import Ticker
 from datetime import datetime, timedelta
 
 def load_metadata():
-    with open('metadata/tickers.json') as f:
+    with open('metadata/companies_enriched.json') as f:
         return json.load(f)
 
 def fetch_all_tickers():
